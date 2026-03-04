@@ -47,12 +47,12 @@ export default function App() {
   const [siteData, setSiteData] = useState(() => {
     const defaultData = {
       heroTitle: "Mendidik Karakter Masa Depan",
-      heroSubtitle: "Mengembangkan potensi siswa melalui pendidikan holistik, inovasi teknologi, dan penanaman nilai-nilai luhur di SDN 3 Purwosari Wonogiri.",
+      heroSubtitle: "SD Negeri 3 Purwosari merupakan salah satu lembaga pendidikan tingkat Sekolah Dasar di bawah naungan Dinas Pendidikan Kabupaten Wonogiri. Sekolah ini berlokasi di Sumbersari, Desa Purwosari, Kecamatan Wonogiri, Kabupaten Wonogiri, Provinsi Jawa Tengah, Indonesia.",
       stats: [
-        { label: "Siswa Aktif", value: "450+" },
-        { label: "Tenaga Pengajar", value: "25+" },
-        { label: "Ruang Kelas", value: "18+" },
-        { label: "Prestasi", value: "12+" },
+        { label: "Siswa Aktif", value: "98" },
+        { label: "Tenaga Pengajar", value: "11" },
+        { label: "Ruang Kelas", value: "6" },
+        { label: "Prestasi", value: "25+" },
       ],
       visi: "Menjadi lembaga pendidikan unggulan yang menghasilkan generasi beriman, bertaqwa, cerdas, kreatif, dan inovatif.",
       misi: "Meningkatkan mutu pendidikan melalui inovasi pembelajaran digital dan pengembangan karakter berbasis nilai luhur.",
@@ -64,10 +64,13 @@ export default function App() {
         tiktok: "@sdn3purwosari_wonogiri"
       },
       teachers: [
-        { name: "Joko Susanto, S.Pd", role: "Kepala Sekolah", img: "https://i.pravatar.cc/300?u=joko" },
-        { name: "Siti Nurhaliza, S.Pd", role: "Guru Kelas 1", img: "https://i.pravatar.cc/300?u=siti" },
-        { name: "Andi Prasetyo, S.Pd", role: "Guru Olahraga", img: "https://i.pravatar.cc/300?u=andi" },
-        { name: "Dewi Kartika, S.Pd", role: "Guru Seni", img: "https://i.pravatar.cc/300?u=dewi" },
+        { name: "Titik Purwanti, S.Pd", role: "Kepala Sekolah", img: "https://i.pravatar.cc/300?u=joko" },
+        { name: "Afrilia Ekatien Noer Kusuma, S.Pd.", role: "Guru Kelas 1", img: "https://i.pravatar.cc/300?u=siti" },
+        { name: "Marlina Setyawati, S.Pd", role: "Guru Kelas 2", img: "https://i.pravatar.cc/300?u=andi" },
+        { name: "Catur Wahyuni Sukarno, S.Pd", role: "Guru kelas 3", img: "https://i.pravatar.cc/300?u=dewi" },
+        { name: "Sriyani Widyawati, S.Pd., M.Pd.", role: "Guru Kelas 5", img: "https://i.pravatar.cc/300?u=siti" },
+        { name: "Toni Adhi Putranto, S.Pd", role: "Guru Kelas 6", img: "https://i.pravatar.cc/300?u=dewi" },
+        { name: "Ahmad Santoso, S.Pd", role: "Guru PAIBP", img: "https://i.pravatar.cc/300?u=dewi" },
       ],
       news: [
         { date: "25 Mei 2025", title: "Pesta Kenaikan Kelas 2025", category: "Kegiatan", img: "https://picsum.photos/seed/news1/600/400", content: "Pesta kenaikan kelas tahun ini berlangsung sangat meriah dengan berbagai penampilan seni dari siswa-siswi SDN 3 Purwosari. Acara ini dihadiri oleh seluruh orang tua siswa dan tokoh masyarakat setempat. Kepala Sekolah menyampaikan apresiasi yang setinggi-tingginya kepada para siswa yang telah berprestasi selama satu tahun ajaran ini." },
@@ -411,7 +414,7 @@ export default function App() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-1.5 bg-brand-50 text-brand-700 rounded-full text-xs font-bold tracking-wider uppercase mb-6">
-              Terakreditasi A • Unggul & Berkarakter
+              • Terakreditasi B • Unggul & Berkarakter •
             </span>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-slate-900 mb-8 text-balance">
               {siteData.heroTitle.split(" ").slice(0, -1).join(" ")} <br />
