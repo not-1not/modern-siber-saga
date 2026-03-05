@@ -57,8 +57,8 @@ export default function App() {
       visi: "Menjadi lembaga pendidikan unggulan yang menghasilkan generasi beriman, bertaqwa, cerdas, kreatif, dan inovatif.",
       misi: "Meningkatkan mutu pendidikan melalui inovasi pembelajaran digital dan pengembangan karakter berbasis nilai luhur.",
       contact: {
-        address: "Jl. Raya Purwosari No. 10, Wonogiri, Jawa Tengah",
-        email: "info@sdn3purwosari.sch.id",
+        address: "Sumbersari, Desa Purwosari, Kecamatan Wonogiri, Kabupaten Wonogiri, Jawa Tengah",
+        email: "sdn3purwosari@gmail.com",
         instagram: "@sdn3purwosari",
         youtube: "SDN 3 Purwosari Official",
         tiktok: "@sdn3purwosari_wonogiri"
