@@ -68,6 +68,7 @@ export default function App() {
         { name: "Afrilia Ekatien Noer Kusuma, S.Pd.", role: "Guru Kelas 1", img: "https://i.pravatar.cc/300?u=siti" },
         { name: "Marlina Setyawati, S.Pd", role: "Guru Kelas 2", img: "https://i.pravatar.cc/300?u=andi" },
         { name: "Catur Wahyuni Sukarno, S.Pd", role: "Guru kelas 3", img: "https://i.pravatar.cc/300?u=dewi" },
+        { name: "Titik Purwanti, S.Pd", role: "Guru kelas 4", img: "https://i.pravatar.cc/300?u=joko" },
         { name: "Sriyani Widyawati, S.Pd., M.Pd.", role: "Guru Kelas 5", img: "https://i.pravatar.cc/300?u=siti" },
         { name: "Toni Adhi Putranto, S.Pd", role: "Guru Kelas 6", img: "https://i.pravatar.cc/300?u=dewi" },
         { name: "Ahmad Santoso, S.Pd", role: "Guru PAIBP", img: "https://i.pravatar.cc/300?u=dewi" },
